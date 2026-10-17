@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS claims (
     claim_status TEXT
 )
 """)
+connection.execute("DELETE FROM claims")
 
 # Read the CSV and load the claims into the table
 with open(csv_file, "r", newline="", encoding="utf-8") as file:
