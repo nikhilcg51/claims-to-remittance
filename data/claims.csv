@@ -1,0 +1,7 @@
+claim_id,patient_id,claim_amount,claim_status
+C001,P101,500,Paid
+C002,P102,750,Pending
+C003,P103,300,Denied
+C004,P104,1200,Paid
+C005,P105,450,Pending
+C006,P106,abc,Pending
